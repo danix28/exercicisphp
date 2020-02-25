@@ -1,0 +1,21 @@
+body {
+    background-image: url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+img {
+    border-style: dotted; 
+    margin-left: 200px;
+    height: 100px;
+    width: 100px;
+    border-color: red;
+}
+ h1 { 
+     text-align: center;
+ }
+
+ div{
+     
+ }
