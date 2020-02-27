@@ -9,7 +9,7 @@ img {
     border-style: groove; 
     height: 80px;
     width: 80px;
-    border-color: red;
+    border-color: rgb(255, 0, 0);
     
 }
  h1 { 
