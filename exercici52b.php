@@ -15,6 +15,7 @@
         return $a=($a*$b);
     
     }
+    
     $total=0;
     $productos=$_GET["item"];
     foreach ($productos as $indice=>$valor){
@@ -22,20 +23,20 @@
            $total=$total+$valor;
         }
         echo "en total te has gastado $total <br>";
-    
+        
    
          
     if ($total<=100){
-        echo "No sea usted tacaño, ¡gaste unas pocas monedas de oro más para obtener un descuento!<br>
+        echo "Su compra es demasiado pequeña , no obtiene ningun descuento<br>
         El precio le queda igual, serán $total";
     }else if ($total>100 and $total<=500){
-        echo "Voy a hacerle un descuento del 10% por haber gastado hasta $total monedas!<br>
+        echo "Su descuento es del 10% por haber gastado hasta $total euros<br>
         El precio le queda en: "; 
-        echo discount1($total); 
+        echo $total-discount1($total); 
     }else{
-        echo "Le llamaremos el Derrochador! Le aplicaré un 15% por haber gastado hasta $total monedas!<br>
+        echo "Obtiene un 15% de descuento por haber gastado hasta $total euros<br>
         El precio le queda en: ";
-        echo discount2($total); 
+        echo $total-discount2($total); 
     }
 ?>
 </body>
