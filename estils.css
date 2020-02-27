@@ -17,6 +17,13 @@ img {
  h1 { 
      font-family: Trade Winds;
      text-align: center;
+     border-style: ridge;
+     width: 600px;
+     margin-left: 300px;
+     border-width: 4px;
+     background-color: black;
+     color: rgb(28, 245, 153); 
+          
  }
 
  p {
@@ -32,13 +39,13 @@ img {
 
  .buto{
       
-    margin-left: 600px;
+    margin-left: 550px;
     color: white;
     font-family: fantasy;
     background-color: black;
     width: 150px;
     height: 30px;
-    margin-top: 50px;
+    margin-top: 75px;
     letter-spacing: 2px;
     font-size: large;
     
@@ -49,3 +56,5 @@ img {
      border-width: 5px;
      padding-bottom: 50px;
  }
+
+ 
