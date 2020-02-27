@@ -1,15 +1,17 @@
+
 body {
     background-image: url(img/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 img {
     border-width:5px;
-    border-style: groove; 
+    border-style: ridge; 
     height: 80px;
     width: 80px;
-    border-color: rgb(255, 0, 0);
+    
     
 }
  h1 { 
@@ -19,16 +21,31 @@ img {
 
  p {
      font-size: 20px;
-     color: black;
+     color: rgb(28, 245, 153);
      font-family: Odibee Sans;
+     background-color: black;
+     text-align: center;
+     border-style: ridge;
+     border-width: 4px;
+     
  }
 
  .buto{
       
     margin-left: 600px;
     color: white;
+    font-family: fantasy;
     background-color: black;
-    width: 100px;
+    width: 150px;
     height: 30px;
+    margin-top: 50px;
+    letter-spacing: 2px;
+    font-size: large;
     
+ }
+ .caixa {
+     border-style: ridge;
+     border-color: black;
+     border-width: 5px;
+     padding-bottom: 50px;
  }
