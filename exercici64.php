@@ -7,7 +7,7 @@
 </head>
 <body>
      <form action="diccionario.php" method="get">
-     <input type="text" name="ing">
+     <p>Escribe la palabra en español <input type="text" name="esp"></p>
      <input type="submit" value="enviar">
 
 

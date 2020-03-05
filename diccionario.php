@@ -7,13 +7,14 @@
 </head>
 <body>
     <?php
-      $ingles=$_GET["ing"];
-      $palabra=array("house"=>"casa","hand"=>"mano","car"=>"coche","pen"=>"lapiz","ball"=>"bola");
-      foreach ($ingles as $i=>$v){
-          echo $i." es ".$v ."<br>";
-      }
+      $español=$_GET["esp"]; 
+      $paraula=array("coche"=>"car","casa"=>"house","mano"=>"hand","paraguas"=>"umbrella","perro"=>"dog","gato"=>"cat","patada"=>"kick","puño"=>"fist","hola"=>"hello","adios"=>"bye",
+      "dulce"=>"sweet","sal"=>"salt","azucar"=>"sugar","pimienta"=>"peeper","camion"=>"truck","plato"=>"dish","tenedor"=>"fork","cuchillo"=>"knife","raton"=>"mouse","sol"=>"sun");
 
-
+      echo $español." en ingles es ".$paraula["$español"];
+      
+      
+       
    ?>
 </body>
 </html>
