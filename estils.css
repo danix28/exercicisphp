@@ -1,11 +1,14 @@
+/*comddd*/
 
 body {
+    margin-top: 100px;
     background-image: url(img/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     
 }
 
+  
 img {
     border-width:5px;
     border-style: ridge; 
@@ -19,7 +22,7 @@ img {
      text-align: center;
      border-style: ridge;
      width: 600px;
-     margin-left: 300px;
+     margin-left: 650px;
      border-width: 4px;
      background-color: black;
      color: rgb(28, 245, 153); 
@@ -39,7 +42,7 @@ img {
 
  .buto{
       
-    margin-left: 550px;
+    margin-left: 800px;
     color: white;
     font-family: fantasy;
     background-color: black;
@@ -51,10 +54,43 @@ img {
     
  }
  .caixa {
+     
+     width: 1500px; margin: 0 auto;
      border-style: ridge;
-     border-color: black;
+     border-color: white;
      border-width: 5px;
      padding-bottom: 50px;
+     padding-left:100px;
  }
  
+ .quantitat {
+    font-size: 20px;
+    color: rgb(28, 245, 153);
+    font-family: Odibee Sans;
+    background-color: blue;
+    text-align: center;
+    border: none;
+}
+
+.taula {
+     font-size: 20px;
+     color: rgb(28, 245, 153);
+     font-family: Odibee Sans;
+     background-color: blue;
+     text-align: center;
+     border-style: ridge;
+     border-width: 4px;
+     padding: 5px;
+     margin-left: 100px;
+
+}
+.cist {
+    margin-left:20px;
+    padding:7px;
+    background-color:blue;
+    font-family:Odibee Sans;
+    font-size:30px;
+    color:white
+}
+
  
